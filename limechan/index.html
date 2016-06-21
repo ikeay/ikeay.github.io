@@ -67,17 +67,6 @@
 
 <div class="container">
 <section class = "container">
-
-  <h3>QRCode</h3>
-  <p>Render in canvas</p>
-  <div class="col-xs-12">Socket Server IP Address: <input type="text" class="form-control" id="socketServerIP" /></div>
-  <div class="col-xs-12">Socket Server Port Number: <input type="text" class="form-control" id="socketServerPort" /></div>
-  <div class="col-xs-12"><button onclick="qrCreate()" class="btn btn-primary">QRコード生成</button></div>
-  <div class="col-xs-12" style="padding:30px;"><div id="qrcodeCanvas"></div></div>
-
-
-
-
 	<h3>接続</h3>
 	<div class = "row connectedState">
 		<div class="connected col-xs-9" style="color:red"><span class="connectedText">未接続</span><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></div>
@@ -97,13 +86,6 @@
 
 
 	<h3>喋らせる</h3>
-
-	<div class = "row">
-		<div class="col-xs-12" >
-			<button onclick="hello()" class="btn btn-default">Hello</button>
-		</div>
-	</div>
-
 	<div class = "row">
 		<div class="col-xs-12"><label>TextMessage</label></div>
 		<div class="col-xs-9" ><input type="text" class="form-control" id="sayText" /></div>
@@ -119,25 +101,7 @@
 	<div class = "row">
 		<div class="col-xs-12"><span id="helpBlock" class="help-block">Hint:　\vct=50~150\ で声の高さ　\pau=0~\ で待つ</span></div>
 	</div>
-
-	<h3>動かす</h3>
-	<div class = "row">
-    <div class="pad">
-      <div class="control top" onclick="move(2)">
-        <div class="arrow"></div>
-      </div>
-      <div class="control left" onclick="move(0)">
-        <div class="arrow"></div>
-      </div>
-      <div class="control right" onclick="move(1)">
-        <div class="arrow"></div>
-      </div>
-      <div class="control bottom" onclick="move(3)">
-        <div class="arrow"></div>
-      </div>
-      <div class="control middle"></div>
-    </div>
-	</div>
+	
 	<h3>ビヘイビア</h3>
 	<div class = "row">
 		<div class="col-xs-12"><button onclick="action(0)" class="btn btn-danger">ストップ</button></div>

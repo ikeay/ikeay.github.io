@@ -157,7 +157,7 @@ function action(num){
 			self.alBehavior.stopAllBehaviors();
 			break;
 		case 1:
-			self.alBehavior.runBehavior("animation-5ffd19/HighTouch");
+			self.alBehavior.runBehavior("kyoshuku-c15b59/Kyoshuku");
 			break;
 		case 2:
 			self.alBehavior.runBehavior("pepper_self_introduction_waist_sample/.");
