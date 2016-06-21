@@ -157,7 +157,7 @@ function action(num){
 			self.alBehavior.stopAllBehaviors();
 			break;
 		case 1:
-			self.alBehavior.runBehavior("kyoshuku-c15b59/Kyoshuku");
+			self.alBehavior.runBehavior("kyoshuku-c15b59/behavior_1");
 			console.log("恐縮です");
 			break;
 		case 2:
