@@ -158,6 +158,7 @@ function action(num){
 			break;
 		case 1:
 			self.alBehavior.runBehavior("kyoshuku-c15b59/Kyoshuku");
+			console.log("恐縮です");
 			break;
 		case 2:
 			self.alBehavior.runBehavior("pepper_self_introduction_waist_sample/.");
