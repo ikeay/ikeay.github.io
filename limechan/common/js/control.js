@@ -157,7 +157,7 @@ function action(num){
 			console.log("恐縮です");
 			break;
 		case 2:
-			self.alBehavior.runBehavior("");
+			self.alBehavior.runBehavior("terumitellme-21593f/behavior_1");
 			console.log("テルミにTELLME!");
 			break;
 		case 3:
@@ -168,7 +168,7 @@ function action(num){
 			self.alBehavior.runBehavior("animations/Stand/Emotions/Negative/Sad_1");
 			console.log("泣く");
 			break;
-		case 5:
+		case 5:6
 			self.alBehavior.runBehavior("");
 			break;
 		case 6:
