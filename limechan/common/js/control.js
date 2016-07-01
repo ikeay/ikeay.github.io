@@ -70,7 +70,7 @@ function connect(){
      	       		setupIns_();
 
      	       		// 接続成功表示切り替え
-     	       		$(".connected-text").text("接続成功");
+     	       		$("row > .connected-text").text("接続成功");
      	       		$(".connected").css("color","Blue");
 
      	       })
