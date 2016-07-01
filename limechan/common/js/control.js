@@ -70,7 +70,7 @@ function connect(){
      	       		setupIns_();
 
      	       		// 接続成功表示切り替え
-     	       		$(".connected-state > .connected > .connected-text").text("接続成功");
+     	       		$(".connected-state > .connected > label > .connected-text").text("接続成功");
      	       		$(".connected-state > .connected").css("color","Blue");
 
      	       })
@@ -168,11 +168,12 @@ function action(num){
 			self.alBehavior.runBehavior("animations/Stand/Emotions/Negative/Sad_1");
 			console.log("泣く");
 			break;
-		case 5:6
-			self.alBehavior.runBehavior("");
+		case 5:
+			self.alBehavior.runBehavior("showlogo-2fbfbb/behavior_1");
+			console.log("ロゴ");
 			break;
 		case 6:
-			self.alBehavior.runBehavior("");
+			self.alBehavior.runBehavior("showcm-bd88d1/behavior_1");
 			break;
 	}
 }
