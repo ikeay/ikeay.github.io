@@ -70,8 +70,8 @@ function connect(){
      	       		setupIns_();
 
      	       		// 接続成功表示切り替え
-     	       		$(".connected-state > .connected > label > .connected-text").text("接続成功");
-     	       		$(".connected-state > .connected").css("color","Blue");
+     	       		$(".connected-text").text("接続成功");
+     	       		$(".connected").css("color","Blue");
 
      	       })
      	// 接続失敗したら
